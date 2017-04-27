@@ -130,6 +130,11 @@ input{
 	margin:20px;
 }
 
+.label{
+	z-index: 100;
+	float:left;
+}
+
 .connect{
 	float:left;
 	width:300px;
