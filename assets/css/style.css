@@ -38,6 +38,7 @@ h1{
 	display:inline-block;
 	padding-top:30px;
 	vertical-align: middle;
+	text-decoration: none;
 }
 
 #links>li{
@@ -48,6 +49,12 @@ h1{
 	width:75px;
 	padding:0px 25px 0px 25px;
 	vertical-align:middle;
+	text-decoration: none;
+}
+
+#links>li>a{
+	text-decoration:none;
+	color:#000;
 }
 
 #links>li+li{
@@ -80,15 +87,51 @@ hr{
 	margin:10px;
 }
 
+form{
+	margin-left:100px;
+	font-weight: bold;
+}
+
+input{
+	width:75%;
+}
+
+#messagebox{
+	height:250px;
+}
+
+#button{
+	width:70px;
+	height:30px;
+	font-size:medium;
+	text-align: center;
+	margin-left: 110px;
+	margin-bottom: 15px;
+}
+
+
 #picture{
 	float:left;
 	margin:0px 20px 0px 10px;
 	display:inline-block;
 }
 
+.portfolio{
+	float:left;
+	width:500px;
+	border:1px solid #73457f;
+	margin:50px 0px 0px 150px;
+}
+
+.thumbnail{
+	float: left;
+	width:200px;
+	height: 200px;
+	margin:20px;
+}
+
 .connect{
 	float:left;
-	background-color: #ddd;
 	width:300px;
 	margin:30px 0px 0px 250px;
 	border:1px solid #73457f;
